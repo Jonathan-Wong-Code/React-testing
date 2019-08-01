@@ -13,10 +13,8 @@ class ShowButton extends Component {
     return (
       <div>
         <h2> BUTTON COMPONENT</h2>
-        <button onClick={this.handleClick} data-testid="show-button-button">
-          Push
-        </button>
-        {message && <p data-testid="show-button-message">{message}</p>}
+        <button onClick={this.handleClick}>Push</button>
+        {message && <p>{message}</p>}
       </div>
     );
   }

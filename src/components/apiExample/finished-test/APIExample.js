@@ -2,7 +2,7 @@ import { render, cleanup, wait } from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";
 import React from "react";
 import axios from "axios";
-import APIExample from "./../apiExample";
+import APIExample from "../apiExample";
 
 jest.mock("axios");
 afterEach(cleanup);

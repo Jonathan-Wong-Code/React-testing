@@ -9,7 +9,6 @@ export default class APIExample extends Component {
     try {
       const response = await axios.get("https://pokeapi.co/api/v2/pokemon/1");
       const pokemon = response.data;
-      console.log(pokemon);
       this.setState({ pokemon });
     } catch (error) {
       this.setState({ error: "Oops something went wrong!" });
@@ -23,7 +22,7 @@ export default class APIExample extends Component {
         <h2>POKEMON INFORMATION</h2>
         {pokemon && (
           <>
-            <p data-testid="pokemon-name">name: {pokemon.name}</p>
+            <p>name: {pokemon.name}</p>
             <img src={pokemon.sprites.front_default} alt={pokemon.name} />
           </>
         )}

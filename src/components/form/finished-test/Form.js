@@ -1,7 +1,7 @@
 import { render, cleanup, fireEvent } from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";
 import React from "react";
-import Form from "./../Form";
+import Form from "../Form";
 
 // Cleans up the test-dom so we don't get multiple renders of our component.
 afterEach(cleanup);

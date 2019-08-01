@@ -22,7 +22,7 @@ export default class Form extends Component {
     return (
       <div>
         <h2> FORM COMPONENT </h2>
-        <form action="" onSubmit={this.handleSubmit} data-testid="form">
+        <form action="" onSubmit={this.handleSubmit}>
           <label htmlFor="name">Name</label>
           <input
             type="text"

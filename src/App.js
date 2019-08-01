@@ -3,7 +3,7 @@ import ShowButton from "./components/button/ShowButton";
 import Form from "./components/form/Form";
 import Card from "./components/card/Card";
 import APIExample from "./components/apiExample/APIExample";
-
+import Header from "./components/header/Header";
 class App extends React.Component {
   state = {
     name: "",
@@ -18,8 +18,7 @@ class App extends React.Component {
     const { name, email } = this.state;
     return (
       <>
-        <h1>Welcome</h1>
-        <p>This is my lil app!</p>
+        <Header />
         {name && <p>My name is {name}</p>}
         {email && <p>My email is {email}</p>}
         <Card title="Happy Bunnies" author="Jon Wong" year={2001} />

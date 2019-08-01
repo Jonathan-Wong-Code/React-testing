@@ -9,7 +9,9 @@ const newObject = {
 
 const numArray = [1, 2, 3, 4, 5];
 const numArray2 = [1, 2, 3, 4, 5];
+
 // 2 arguments. 1st argument is the description, second is a call back.
+
 test("a should equal 3", () => {
   expect(a).toBe(3);
 });
