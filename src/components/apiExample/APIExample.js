@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
+
 export default class APIExample extends Component {
   state = {
     pokemon: null,
@@ -8,6 +9,7 @@ export default class APIExample extends Component {
   async componentDidMount() {
     try {
       const response = await axios.get("https://pokeapi.co/api/v2/pokemon/1");
+      console.log(response);
       const pokemon = response.data;
       this.setState({ pokemon });
     } catch (error) {

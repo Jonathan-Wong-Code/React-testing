@@ -1,7 +1,7 @@
 import { render, cleanup } from "@testing-library/react";
 import "@testing-library/jest-dom/extend-expect";
 import React from "react";
-import Header from "./../Header";
+import Header from "../Header";
 
 afterEach(cleanup);
 
