@@ -2,9 +2,11 @@ A little tutorial for learning to use jest and react-testing-library
 
 Useful docs can be found...
 
-https://testing-library.com/docs/intro
+https://testing-library.com/docs/intro - Testing library docs
 
-https://github.com/testing-library/jest-dom
+https://github.com/testing-library/jest-dom - Docs for jest-dom
+
+https://jestjs.io/docs/en/getting-started - Docs for Jest
 
 https://testing-library.com/docs/guide-which-query - What kind of query should I use? A handy guide.
 
